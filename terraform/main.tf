@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "demo" {
-  bucket = "unzer-demo-public-bucket"
+  bucket = "app-assets-eu-central-1"
 }
 
 resource "aws_s3_bucket_public_access_block" "demo" {
